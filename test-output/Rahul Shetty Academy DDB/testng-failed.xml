@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rahul Shetty Academy DDB]" parallel="none">
+  <test name="HomePage(failed)" parallel="none">
+    <classes>
+      <class name="testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.HomePageTest -->
+      <class name="testcases.ValidateCourseTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="validateCourse"/>
+        </methods>
+      </class> <!-- testcases.ValidateCourseTest -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+</suite> <!-- Failed suite [Rahul Shetty Academy DDB] -->

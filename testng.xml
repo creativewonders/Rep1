@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+
+	<listeners>
+		<listener class-name="testcases.Listeners"></listener>
+	</listeners>
+
+	<test name="Logging into PortalHomePage">
+		<classes>
+			<class name="testcases.HomePageTest" />
+		</classes>
+	</test>
+
+	<test name="Validating the course title">
+		<classes>
+			<class name="testcases.ValidateCourseTest" />
+		</classes>
+	</test>
+
+
+	<test name="Validating the carousel on the homepage">
+		<classes>
+			<class name="testcases.ValidateCarouselTest" />
+		</classes>
+	</test>
+
+</suite>

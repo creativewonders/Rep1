@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" parallel="tests">
+  <listeners>
+    <listener class-name="testcases.Listeners"/>
+  </listeners>
+  <test name="Validating the course title(failed)(failed)" parallel="tests">
+    <classes>
+      <class name="testcases.ValidateCarouselTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.ValidateCarouselTest -->
+      <class name="testcases.ValidateCourseTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateCourse"/>
+        </methods>
+      </class> <!-- testcases.ValidateCourseTest -->
+      <class name="testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Validating the course title(failed)(failed) -->
+  <test name="Validating the carousel on the homepage(failed)(failed)" parallel="tests">
+    <classes>
+      <class name="testcases.ValidateCarouselTest">
+        <methods>
+          <include name="validateCarouselItems"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.ValidateCarouselTest -->
+      <class name="testcases.ValidateCourseTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.ValidateCourseTest -->
+      <class name="testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Validating the carousel on the homepage(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
