@@ -31,38 +31,70 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Validating the carousel on the homepage</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">15.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
-<tr class="stripe"><td style="text-align:left;padding-right:2em">Validating the course title</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">20.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
-<tr><td style="text-align:left;padding-right:2em">Logging into PortalHomePage</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">45.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Logging into PortalHomePage</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Validating the course title</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Validating the carousel on the homepage</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 <tr class="total"><td>Total</td>
-<td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">45.6 seconds</td><td colspan="2">&nbsp;</td></tr>
+<td class="numi">0</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td colspan="2">&nbsp;</td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Validating the carousel on the homepage &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">testcases.ValidateCarouselTest</td><td><a href="#m1"><b>validateCarouselItems</b>  </a></td><td class="numi">1</td><td>1602962486901</td><td class="numi">6633</td></tr>
-<tr><th colspan="4">Validating the course title &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">testcases.ValidateCourseTest</td><td><a href="#m2"><b>validateCourse</b>  </a></td><td class="numi">1</td><td>1602962488825</td><td class="numi">11220</td></tr>
-<tr><th colspan="4">Logging into PortalHomePage &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">testcases.HomePageTest</td><td><a href="#m3"><b>HomeTest</b>  </a></td><td class="numi">1</td><td>1602962487881</td><td class="numi">37373</td></tr>
+<tr><th colspan="4">Logging into PortalHomePage &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">testcases.HomePageTest</td><td><a href="#m1"><b>setUp</b>  </a></td><td class="numi">1</td><td>1604227964307</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Logging into PortalHomePage &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">testcases.HomePageTest</td><td><a href="#m2"><b>tearDown</b>  </a></td><td class="numi">1</td><td>1604227964411</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Logging into PortalHomePage &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">testcases.HomePageTest</td><td><a href="#m3"><b>HomeTest</b>  </a></td><td class="numi">1</td><td>1604227964336</td><td class="numi">70</td></tr>
+<tr><th colspan="4">Validating the course title &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">testcases.ValidateCourseTest</td><td><a href="#m4"><b>setUp</b>  </a></td><td class="numi">1</td><td>1604227964307</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Validating the course title &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">testcases.ValidateCourseTest</td><td><a href="#m5"><b>tearDown</b>  </a></td><td class="numi">1</td><td>1604227964411</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Validating the course title &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">testcases.ValidateCourseTest</td><td><a href="#m6"><b>validateCourse</b>  </a></td><td class="numi">1</td><td>1604227964336</td><td class="numi">70</td></tr>
+<tr><th colspan="4">Validating the carousel on the homepage &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">testcases.ValidateCarouselTest</td><td><a href="#m7"><b>setUp</b>  </a></td><td class="numi">1</td><td>1604227964307</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Validating the carousel on the homepage &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">testcases.ValidateCarouselTest</td><td><a href="#m8"><b>tearDown</b>  </a></td><td class="numi">1</td><td>1604227964411</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Validating the carousel on the homepage &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">testcases.ValidateCarouselTest</td><td><a href="#m9"><b>validateCarouselItems</b>  </a></td><td class="numi">1</td><td>1604227964336</td><td class="numi">71</td></tr>
 </table>
-<h1>Validating the carousel on the homepage</h1>
-<h2 id="m1">testcases.ValidateCarouselTest:validateCarouselItems</h2>
+<h1>Logging into PortalHomePage</h1>
+<h2 id="m1">testcases.HomePageTest:setUp</h2>
 <div style="padding-left:3em">
-<p>expected [Practice Project] but found [PRACTICE PROJECT]</p>
-org.testng.Assert.fail(Assert.java:94)
-<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
-<br/>at org.testng.Assert.assertEquals(Assert.java:123)
-<br/>at org.testng.Assert.assertEquals(Assert.java:176)
-<br/>at org.testng.Assert.assertEquals(Assert.java:186)
-<br/>at testcases.ValidateCarouselTest.validateCarouselItems(ValidateCarouselTest.java:39)
-<br/>21 lines not shown
+<p>null</p>
+testBase.Base.initializeDriver(Base.java:51)
+<br/>at testcases.HomePageTest.setUp(HomePageTest.java:28)
+<br/>19 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h1>Validating the course title</h1>
-<h2 id="m2">testcases.ValidateCourseTest:validateCourse</h2>
+<h2 id="m2">testcases.HomePageTest:tearDown</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h1>Logging into PortalHomePage</h1>
 <h2 id="m3">testcases.HomePageTest:HomeTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Validating the course title</h1>
+<h2 id="m4">testcases.ValidateCourseTest:setUp</h2>
+<div style="padding-left:3em">
+<p>null</p>
+testBase.Base.initializeDriver(Base.java:51)
+<br/>at testcases.ValidateCourseTest.setUp(ValidateCourseTest.java:28)
+<br/>19 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">testcases.ValidateCourseTest:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">testcases.ValidateCourseTest:validateCourse</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Validating the carousel on the homepage</h1>
+<h2 id="m7">testcases.ValidateCarouselTest:setUp</h2>
+<div style="padding-left:3em">
+<p>null</p>
+testBase.Base.initializeDriver(Base.java:51)
+<br/>at testcases.ValidateCarouselTest.setUp(ValidateCarouselTest.java:23)
+<br/>19 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">testcases.ValidateCarouselTest:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">testcases.ValidateCarouselTest:validateCarouselItems</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

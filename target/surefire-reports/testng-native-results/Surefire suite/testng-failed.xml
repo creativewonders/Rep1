@@ -6,17 +6,20 @@
       <class name="testcases.HomePageTest">
         <methods>
           <include name="setUp"/>
-          <include name="HomeTest"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- testcases.HomePageTest -->
       <class name="testcases.ValidateCarouselTest">
         <methods>
           <include name="validateCarouselItems"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- testcases.ValidateCarouselTest -->
       <class name="testcases.ValidateCourseTest">
         <methods>
-          <include name="validateCourse"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- testcases.ValidateCourseTest -->
     </classes>

@@ -1,7 +1,3 @@
-20:17:57.633 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-20:17:57.637 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
-20:17:57.637 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
-20:17:57.637 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-20:18:45.793 [main] INFO  testBase.Base - Driver initialized and navigated to home page
-20:19:12.475 [main] INFO  testBase.Base - Driver initialized and navigated to homepage
-20:20:16.122 [main] INFO  testBase.Base - Quitting browser
+06:00:46.530 [AsyncHttpClient-3-6] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+06:00:47.246 [AsyncHttpClient-3-1] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+06:00:47.925 [main] INFO  testBase.Base - Quitting browser
