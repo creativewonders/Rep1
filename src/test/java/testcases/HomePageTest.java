@@ -53,7 +53,7 @@ public class HomePageTest extends Base {
 
 		String enrolledCourse = php.validateEnrolledCourse();
 		Assert.assertEquals(enrolledCourse, "Write effective QA Resume that will turn to interview call");
-        System.out.println(enrolledCourse);
+        //System.out.println(enrolledCourse);
 	}
 
 	@AfterTest
