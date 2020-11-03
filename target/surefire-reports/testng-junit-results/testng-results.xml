@@ -2,12 +2,12 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-02T11:21:05Z" name="Surefire suite" finished-at="2020-11-02T11:21:06Z" duration-ms="548">
+  <suite started-at="2020-11-02T20:33:14Z" name="Surefire suite" finished-at="2020-11-02T20:33:14Z" duration-ms="104">
     <groups>
     </groups>
-    <test started-at="2020-11-02T11:21:05Z" name="Surefire test" finished-at="2020-11-02T11:21:06Z" duration-ms="548">
+    <test started-at="2020-11-02T20:33:14Z" name="Surefire test" finished-at="2020-11-02T20:33:14Z" duration-ms="104">
       <class name="RSA.RSASelenium.AppTest">
-        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:shouldAnswerWithTrue(RSA.RSASelenium.AppTest)]" started-at="2020-11-02T06:21:06Z" name="shouldAnswerWithTrue" finished-at="2020-11-02T06:21:06Z" duration-ms="4" status="PASS">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:shouldAnswerWithTrue(RSA.RSASelenium.AppTest)]" started-at="2020-11-02T15:33:14Z" name="shouldAnswerWithTrue" finished-at="2020-11-02T15:33:14Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue -->

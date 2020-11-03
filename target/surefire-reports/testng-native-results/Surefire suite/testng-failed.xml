@@ -3,6 +3,12 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test name="Surefire test(failed)">
     <classes>
+      <class name="testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.HomePageTest -->
       <class name="testcases.ValidateCarouselTest">
         <methods>
           <include name="validateCarouselItems"/>
@@ -16,13 +22,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- testcases.ValidateCourseTest -->
-      <class name="testcases.HomePageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="HomeTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testcases.HomePageTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

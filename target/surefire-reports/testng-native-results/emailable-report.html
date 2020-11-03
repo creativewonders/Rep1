@@ -31,58 +31,30 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Surefire test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">87.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Surefire test</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">56.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Surefire test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">testcases.HomePageTest</td><td><a href="#m1"><b>HomeTest</b>  </a></td><td class="numi">1</td><td>1604316007492</td><td class="numi">49586</td></tr>
-<tr class="failedeven"><td rowspan="1">testcases.ValidateCarouselTest</td><td><a href="#m2"><b>validateCarouselItems</b>  </a></td><td class="numi">1</td><td>1604316057088</td><td class="numi">391</td></tr>
+<tr class="failedodd"><td rowspan="1">testcases.ValidateCarouselTest</td><td><a href="#m1"><b>validateCarouselItems</b>  </a></td><td class="numi">1</td><td>1604349187200</td><td class="numi">186</td></tr>
 <tr><th colspan="4">Surefire test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">testcases.ValidateCourseTest</td><td><a href="#m3"><b>validateCourse</b>  </a></td><td class="numi">1</td><td>1604316057480</td><td class="numi">4137</td></tr>
+<tr class="passedodd"><td rowspan="1">testcases.HomePageTest</td><td><a href="#m2"><b>HomeTest</b>  </a></td><td class="numi">1</td><td>1604349157713</td><td class="numi">29451</td></tr>
+<tr class="passedeven"><td rowspan="1">testcases.ValidateCourseTest</td><td><a href="#m3"><b>validateCourse</b>  </a></td><td class="numi">1</td><td>1604349187394</td><td class="numi">3982</td></tr>
 </table>
 <h1>Surefire test</h1>
 <h2 id="m1">testcases.ValidateCarouselTest:validateCarouselItems</h2>
 <div style="padding-left:3em">
-<p>expected [Practice Project] but found [PRACTICE PROJECT]</p>
-org.testng.Assert.fail(Assert.java:94)
-<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
-<br/>at org.testng.Assert.assertEquals(Assert.java:123)
-<br/>at org.testng.Assert.assertEquals(Assert.java:176)
-<br/>at org.testng.Assert.assertEquals(Assert.java:186)
-<br/>at testcases.ValidateCarouselTest.validateCarouselItems(ValidateCarouselTest.java:39)
+<p>Index 4 out of bounds for length 4</p>
+java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+<br/>at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+<br/>at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+<br/>at java.base/java.util.Objects.checkIndex(Objects.java:372)
+<br/>at java.base/java.util.ArrayList.get(ArrayList.java:458)
+<br/>at testcases.ValidateCarouselTest.validateCarouselItems(ValidateCarouselTest.java:37)
 <br/>30 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h2 id="m2">testcases.HomePageTest:HomeTest</h2>
-<div style="padding-left:3em">
-<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;course-listing-title&apos;]&quot;}
-  (Session info: chrome=86.0.4240.111)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
-System info: host: &apos;LAPTOP-076B1A2F&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\visha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54081}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 01519fe31d90e4392ad8e2c9ae4cca5f
-*** Element info: {Using=xpath, value=//div[@class=&apos;course-listing-title&apos;]}</p>
-java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
-<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
-<br/>at pageClasses.PortalHomePage.validateEnrolledCourse(PortalHomePage.java:20)
-<br/>at testcases.HomePageTest.HomeTest(HomePageTest.java:54)
-<br/>30 lines not shown
-</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h2 id="m3">testcases.ValidateCourseTest:validateCourse</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
